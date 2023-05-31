@@ -65,11 +65,11 @@
     $obj = new Tournament("Allegoric Alaskans;Blithering Badgers;win;Devastating Donkeys;Courageous Californians;draw;Devastating Donkeys;Allegoric Alaskans;win;Courageous Californians;Blithering Badgers;loss;Blithering Badgers;Devastating Donkeys;loss;Allegoric Alaskans;Courageous Californians;win");
     $obj->asignacionPuntos();
     $obj->validarEquipos();
-    var_dump($obj->MP);
-    var_dump($obj->W);
-    var_dump($obj->D);
-    var_dump($obj->L);
-    var_dump($obj->P);
+    print_r($obj->MP). "</br>";
+    print_r($obj->W). " </br>";
+    print_r($obj->D). " </br>";
+    print_r($obj->L). " </br>";
+    print_r($obj->P). " </br>";
     
 ?>
 
